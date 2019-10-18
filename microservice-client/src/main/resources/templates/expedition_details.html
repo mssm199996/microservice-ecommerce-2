@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Expedition details</title>
+</head>
+<body>
+<div>
+    <h2>Mcommerce application</h2>
+</div>
+<div class="container">
+    <h1>Expedition's details</h1>
+    <div class="row">
+        <div class="col-md-4 mx-auto mt-5 text-center">
+            <p class="font-weight-bold">Command N°:
+                <th:block th:text="${expedition.getCommandId()}"/>
+            </p>
+            <p>Command's state</p>
+            <p th:text="${ expedition.getExpeditionState().getDesignation() }"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

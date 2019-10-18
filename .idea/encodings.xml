@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservce-cloud-server-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-commands" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-expeditions" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-payments" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-products" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-zuul" charset="UTF-8" />
+  </component>
+</project>

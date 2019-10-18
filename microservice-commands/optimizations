@@ -1,0 +1,15 @@
+1- J'ai changé la version de spring pour utiliser une version bien plus récente.
+2- J'ai utilisé la librairie lombok pour la génération des constructeurs de classes ainsi que les getters / setters
+3- J'ai utilisé LocalDate au lieu de Date
+4- J'ai renommé les beans "DAO" en "Repository" étant donné que la norme le veut bien
+5- J'ai utilisé MySQL en tant que SGBD (configuration disponible sur le fichier application.properties)
+6- J'ai rajouté @RequestMapping dans tout les Controller en plus du @RestController pour dédier ce
+dernier à la manipulation de l'objet en question (j'ai l'habitude de dédier mes controlleur chaqu'un à
+un objet en particulier et de l'isoler dans une url à lui seul .. très pratique pour la sécurité après)
+7- J'ai rajouté Entity par Optional<Entity> dans les fonctions qui retournes des entitées
+au niveau des repositories (je trouve que c'est bien plus pratique de manipuler des objets Optional
+que des entitées brûtes directement)
+8- Le prix du produit est un Double mais le montant du version est un entier ???
+
+9- J'ai traduis toute l'application en Anglais étant donné que j'en ai besoin après en version anglaise.
+10- Lien vers github: https://github.com/mssm199996/
